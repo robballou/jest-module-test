@@ -5,5 +5,8 @@
   "license": "MIT",
   "devDependencies": {
     "jest": "^24.8.0"
+  },
+  "scripts": {
+    "test": "jest"
   }
 }
