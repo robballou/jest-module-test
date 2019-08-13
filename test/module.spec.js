@@ -7,8 +7,8 @@ test('fun1()', () => {
 describe('fun2()', () => {
   let spy;
   beforeEach(() => {
-    // spy = jest.spyOn(testModule, 'fun1')
-    //   .mockReturnValue('asdf');
+    spy = jest.spyOn(testModule, 'fun1')
+      .mockReturnValue('asdf');
     // testModule.fun1 = jest.fn().mockReturnValue('asdf');
   });
 
